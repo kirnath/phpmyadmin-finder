@@ -11,7 +11,7 @@ this tools is for scanning phpmyadmin / mysql directory on a website or known as
 
 >> pip install termcolor
 
->> git clone https://github.com/indrha7x/phpmyadmin-finder.git
+>> git clone https://github.com/kirnath/phpmyadmin-finder.git
 
 >> cd phpmyadmin-finder
 
