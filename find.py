@@ -60,7 +60,7 @@ def main():
 	listed = open('data.txt', 'r')
 	baca = listed.read().split('\n')
 	for i in baca:
-		process = requests.get('http://{}{}'.format(site,i))
+		process = requests.get('http://{}{}'.format(site,i), verify=False)
 		status = str(process.status_code)
 		if "200" in status:
 			print warna.GREEN + "[+] Yeay! I've Found it!\n[+] ",process.url + warna.ENDC
